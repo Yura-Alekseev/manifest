@@ -1,0 +1,104 @@
+.recommendation {
+  display: flex;
+}
+.recommendation .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.recommendation-title {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.recommendation-title img {
+  width: 23px;
+}
+.recommendation-title p {
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.recommendation-description {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
+.footer {
+  margin-top: 70px;
+  padding: 70px 0 70px;
+  background-color: #F4F4F4;
+}
+.footer .wrapper {
+  flex-direction: column;
+  gap: 40px;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.footer__contacts h2 {
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.footer__contacts-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer__contacts-item {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 166%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.footer__social {
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+}
+.footer__social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #565656;
+}
+.footer__social-item:hover {
+  background-color: #565656;
+}
+.footer__social-item:hover .icon {
+  fill: #FFFFFF;
+}
+.footer__social .icon {
+  fill: #565656;
+  width: 25px;
+  height: 25px;
+}
+.footer__copyright {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}/*# sourceMappingURL=footer.css.map */
