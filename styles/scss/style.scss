@@ -1,1 +1,45 @@
 @import "common";
+
+.blog {
+	&-title {
+		display: flex;
+		justify-content: center;
+		font-family: "RedHatDisplay", sans-serif;
+		font-size: 48px;
+		font-weight: 400;
+		line-height: 64px;
+		letter-spacing: 0.05em;
+		color: #000000;
+		margin-bottom: 50px;
+	}
+
+	&__content {
+        display: flex;
+		width: 90%;
+	}
+
+	&__post {
+		width: 96%;
+		&-text {
+			max-width: 96%;
+			font-family: "Lato", sans-serif;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 166%;
+			letter-spacing: 0.1em;
+			color: #7b7b7b;
+			margin-bottom: 30px;
+		}
+
+		&-title {
+			font-family: "Red Hat Display", sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 22px;
+			line-height: 166%;
+			letter-spacing: 0.1em;
+			color: #000000;
+		}
+	}
+}
