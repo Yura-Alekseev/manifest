@@ -1,25 +1,21 @@
 @import "common";
 body {
-	width: 1440px;
+	max-width: 1440px;
 	margin: 0 auto;
 }
 .blog {
-	display: flex;
 	max-width: 300px;
 	width: 96%;
 	margin: 10px;
+	margin: 0 auto;
 	flex-direction: column;
 
 	@media screen and (min-width: 768px) {
-		width: 90%;
 		max-width: 768px;
-		display: flex;
-		margin: 34px;
 	}
 
 	&__post {
 		display: flex;
-		width: 300px;
 		width: 100%;
 		flex-direction: column;
 		@media screen and (min-width: 768px) {
@@ -39,6 +35,7 @@ body {
 			font-size: 16px;
 			letter-spacing: 0.1em;
 			color: #7b7b7b;
+
 			@media screen and (min-width: 768px) {
 				display: flex;
 				line-height: 27px;

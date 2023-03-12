@@ -1,43 +1,39 @@
-.wrapper {
+.blog {
   display: flex;
   width: 94%;
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
-  .wrapper {
+  .blog {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  .wrapper {
+  .blog {
     width: 86%;
     max-width: 1200px;
   }
 }
 
 body {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
 .blog {
-  display: flex;
   max-width: 300px;
   width: 96%;
   margin: 10px;
+  margin: 0 auto;
   flex-direction: column;
 }
 @media screen and (min-width: 768px) {
   .blog {
-    width: 90%;
     max-width: 768px;
-    display: flex;
-    margin: 34px;
   }
 }
 .blog__post {
   display: flex;
-  width: 300px;
   width: 100%;
   flex-direction: column;
 }
