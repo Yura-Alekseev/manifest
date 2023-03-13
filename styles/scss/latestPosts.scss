@@ -22,7 +22,7 @@
 
 }
 
-.title__container {
+.title-container {
 
     h3 {
         margin-bottom: 10px;
@@ -42,7 +42,7 @@
         color: #7B7B7B;
     }
 
-    @media screen and (min-width: 481px) {
+    @media screen and (min-width: 768px) {
         display: flex;
         justify-content: space-between;
         align-items: center;
