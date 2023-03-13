@@ -1,17 +1,1 @@
-@import url(../../assets/fonts/fonts.css);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a, ul {
-  text-decoration: none;
-  list-style: none;
-  color: #000;
-}
-
-.wrapper {
-  margin: 0 135px;
-  max-width: 1200px;
-}/*# sourceMappingURL=common.css.map */
+/*# sourceMappingURL=common.css.map */
