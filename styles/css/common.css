@@ -1,4 +1,6 @@
 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 94%;
   margin: 0 auto;
@@ -13,4 +15,4 @@
     width: 86%;
     max-width: 1200px;
   }
-}/*# sourceMappingURL=common.css.map */
+}
