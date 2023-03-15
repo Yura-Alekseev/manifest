@@ -13,4 +13,15 @@
     width: 86%;
     max-width: 1200px;
   }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    gap: 90px;
+  }
 }/*# sourceMappingURL=common.css.map */
