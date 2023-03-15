@@ -1,23 +1,39 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
 
-    a {
-        text-decoration: none;
+//     a {
+//         text-decoration: none;
+//     }
+// }
+
+// .wrapper {
+//     width: 95%;
+//     margin: 0 auto;
+
+//     @media screen and (min-width: 1201px) {
+//         width: 1200px;
+//     }
+// }
+
+
+.latestPost {
+
+    .wrapper {
+        flex-direction: column;
     }
 }
 
-.wrapper {
-    width: 95%;
-    margin: 0 auto;
+.mostPopular {
 
-    @media screen and (min-width: 1201px) {
-        width: 1200px;
+    .wrapper {
+        flex-direction: column;
     }
 }
 
 .latestPost-container {
+
     display: flex;
 
 }
@@ -218,6 +234,7 @@
     border: none;
 
     a {
+        text-decoration: none;
         font-family: 'Lato', sans-serif;
         font-weight: 700;
         font-size: 16px;
