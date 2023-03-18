@@ -18,7 +18,7 @@
     }
 
     p {
-      font-family: "Red Hat Display";
+      font-family: "RedHatDisplay";
       font-weight: 400;
       font-size: 24px;
       line-height: 166%;
@@ -57,15 +57,20 @@
     }
   }
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1024px) {
     margin-top: 90px;
     .wrapper {
       flex-direction: row;
       justify-content: space-between;
     }
 
+    &-title {
+      max-width: 42%;
+    }
+
     &-description {
       text-align: start;
+      max-width: 42%;
     }
   }
 }
@@ -88,7 +93,7 @@
     margin-bottom: 50px;
 
     h2 {
-      font-family: "Red Hat Display";
+      font-family: "RedHatDisplay";
       font-weight: 400;
       font-size: 32px;
       line-height: 42px;
@@ -173,7 +178,7 @@
     }
   }
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1024px) {
     &__container {
       display: flex;
       justify-content: space-between;

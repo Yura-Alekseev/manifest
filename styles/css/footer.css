@@ -28,7 +28,7 @@
   width: 23px;
 }
 .recommendation-title p {
-  font-family: "Red Hat Display";
+  font-family: "RedHatDisplay";
   font-weight: 400;
   font-size: 24px;
   line-height: 166%;
@@ -68,7 +68,7 @@
     font-size: 19px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .recommendation {
     margin-top: 90px;
   }
@@ -81,8 +81,12 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .recommendation-title {
+    max-width: 42%;
+  }
   .recommendation-description {
     text-align: start;
+    max-width: 42%;
   }
 }
 
@@ -116,7 +120,7 @@
   margin-bottom: 50px;
 }
 .footer__contacts h2 {
-  font-family: "Red Hat Display";
+  font-family: "RedHatDisplay";
   font-weight: 400;
   font-size: 32px;
   line-height: 42px;
@@ -203,7 +207,7 @@
     line-height: 20px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -16,3 +16,19 @@
     max-width: 1200px;
   }
 }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 70px;
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    gap: 90px;
+  }
+}
